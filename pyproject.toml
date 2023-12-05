@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "hello-world"
+version = "0.1.0"
+description = "example app"
+authors = ["Aleksandr Lukianov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.2"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+black = "^23.11.0"
+ruff = "^0.1.7"
+pre-commit = "^3.5.0"
+
+[tool.black]
+line-length = 25
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
