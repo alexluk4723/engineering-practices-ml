@@ -24,7 +24,7 @@ poetry add --group=dev isort black ruff
 
 7. И `numpy` понадобится 
 ```bash
-poetry add --extras numpy
+poetry add (--extras) numpy
 ```
 
 8. Для сборки проекта
