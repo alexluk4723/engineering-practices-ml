@@ -1,0 +1,2 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+hw2/test_dataset.csv filter=lfs diff=lfs merge=lfs -text
